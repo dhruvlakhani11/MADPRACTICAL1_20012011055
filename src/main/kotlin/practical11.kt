@@ -5,15 +5,15 @@ fun main() {
 
 
     println("********** Addition **********")
-    println("Matrix:1 ")
+    println("Matrix:1")
     print(secondMatrix1.toString())
-    println("Matrix:2 ")
+    println("Matrix:2")
     print(secondMatrix.toString())
     val thirdMatrix = secondMatrix1 + secondMatrix
     println("Addition: \n$thirdMatrix")
 
     println("********** Subtraction **********")
-    println("Matrix:1 ")
+    println("Matrix:1")
     print(secondMatrix1)
     println("Matrix:2 ")
     print(secondMatrix)

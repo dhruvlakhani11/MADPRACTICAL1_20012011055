@@ -1,8 +1,8 @@
 fun main() {
     print("Enter a number : ")
     val n = readLine()!!.toInt()
-    println("Factorial of $n = " + recursionFact(n))
-    println("By TailRec Keyword, Factorial of $n = " + fact(n))
+    println("Factorial of $n =" + recursionFact(n))
+    println("By TailRec Keyword, Factorial of $n =" + fact(n))
 }
 
 //n(n-1)
